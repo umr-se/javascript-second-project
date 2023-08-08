@@ -1,0 +1,116 @@
+h1
+{
+
+color: gray;
+font-style: italic;
+
+
+}
+
+h2
+{
+
+    color:aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h3
+{
+ 
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+body
+{
+    
+      background-image: url(https://webneel.com/wallpaper/sites/default/files/images/08-2018/2-nature-wallpaper-grass.jpg);
+
+}
+
+button
+{
+    
+    background-color: black;
+    color: white;
+    /* text-decoration-color: blue; */
+
+}
+    ::-webkit-input-placeholder{
+    color:blue;
+}
+
+.bt
+{
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+
+}
+
+button:hover{background-color: blue;
+cursor: pointer;
+}
+button:active
+{
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+}
+.alert {
+    padding: 20px;
+    background-color: green; /* Red */
+    color: white;
+    margin-bottom: 15px;
+  }
+
+    #d{
+        text-align: center;
+        font-size:xx-large;
+    color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+        height: 35px;
+width: 900px;
+        background-color:black;
+
+        border-color: white;
+        text-transform: lowercase;
+    }
+   #d:hover{
+    animation-name: example;
+    animation-duration: 10s ;
+    cursor: pointer;
+   }
+   #d:active{
+    animation-name: glitch ;
+    cursor: pointer;
+   }
+   @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: skyblue;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+
+    
+   }
+   @keyframes glitch {
+    1%{
+      transform: rotateX(10deg) skewX(90deg);
+    }
+    2%{
+      transform: rotateX(0deg) skewX(0deg);
+    }
+  }
+      
+
